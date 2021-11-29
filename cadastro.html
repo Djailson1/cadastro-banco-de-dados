@@ -1,0 +1,41 @@
+
+
+<!DOCTYPE html> 
+<html lang="pt-br"> 
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Formulário de cadastro</title>
+     <div id="ret" class="retangulo" style="text-align: center;" > 
+      <style> 
+        body { text-align:center; } 
+        .retangulo {margin: auto; border: 1px solid black; position: relative;} 
+        
+        #ret {width: 450px; background-color: georgian;} 
+        
+        #ret div { margin: 20px auto;
+         width: 50px;
+          height: 50px; } 
+      </style>
+     </head>
+  <body>  
+       <br/> 
+       <label id="texto01">CADASTRO</label> 
+       <br/><br/>
+        <form action="cadastro.php" method="POST">
+            <label for="">Nome: </label>
+            <input type="text" name="nome"/>
+            <br>
+            <label for="">Sobrenome: </label>
+            <input type="text" name="sobrenome"/>
+            <br>
+            <label for="">E-mail: </label>
+            <input type="text" name="email"/>
+            <br>
+            <label for="">Senha: </label>
+            <input type="text" name="senha"/>
+            <br>
+            <button>Cadastrar</button>
+        </form>
+</body> 
+</html>
